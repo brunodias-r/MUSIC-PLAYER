@@ -1,34 +1,31 @@
 body{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* background-image: url(imagens/fundo2.jpg);
     background-repeat: no-repeat;
     background-position: 100%; */
     background-color: #273B7A;
     color:aliceblue;
     display: flex;
-    align-items: center;
-    justify-items: center;
-    /*padding-top: 80px;*/
+    align-items:flex-end;
 }
 
 #play{
     width: 100%;
-    max-width: 380px;
-    padding: 0 20px 20px ;
+    max-width: 300px;
+    padding: 0 20px 20px 20px;
     background-color: #121149;
-    /* box-shadow: 0px 2px 2px 0px rgb(0, 0, 0), 
-    0px 3px 1px -2px rgb(255, 0, 0),
-    0px 1px 5px 0px rgb(119, 165, 10); */
+    border-radius: 8px;
+    /*box-shadow: 2px 2px 2px -2px rgb(156, 151, 151);*/
 }
 
 #marca{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10% 0 10% 0;
+    padding: 3% 0 3% 0;
 }
 
-#marca h4{
+#marca h5{
     color: #FFC714;
     font-size: 20px;
     font-weight: bold;
@@ -44,7 +41,7 @@ body{
 
 .descricao imagem{
     display: flex;
-    justify-content: center;   
+    justify-content: center; 
 }
 
 .barra{

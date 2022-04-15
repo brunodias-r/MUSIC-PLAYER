@@ -12,7 +12,7 @@ let musicas = [
         img: 'imagens/capital1.jpg'
     },
     {
-        titulo: 'Só chove',
+        titulo: 'Não olhe pra trás',
         artista: 'Capital inicial',
         src: 'musicas/capital-inicial-nao-olhe-pra-tras.mp3',
         img: 'imagens/capital2.jpg'
@@ -24,7 +24,7 @@ let indexMusica = 0;
 let duracaoMusica = document.querySelector('.fim');
 
 let imagem = document.querySelector('.descricao img');
-let nomeDaMusica = document.querySelector('.descricao h4');
+let nomeDaMusica = document.querySelector('.descricao h5');
 let nomeDoArtista = document.querySelector('.artist');
 
 renderizarMusica(indexMusica);
